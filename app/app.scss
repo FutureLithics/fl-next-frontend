@@ -33,6 +33,14 @@ $base_layer: #13131277;
 @import "./assets/scss/main.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .btn-custom {
   background-color: transparent;
 }

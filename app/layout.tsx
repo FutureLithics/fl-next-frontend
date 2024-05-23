@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./app.scss";
 
 import Header from "./_components/layout/Header";
+import Footer from "./_components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Future Lithics LLC",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

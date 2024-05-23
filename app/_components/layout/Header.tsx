@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Logo1 from "../../assets/images/Logo1.svg";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className="header pt-1">
       <nav className="container navbar">

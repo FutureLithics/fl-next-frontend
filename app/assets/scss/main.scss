@@ -143,6 +143,11 @@ a {
   }
 }
 
+.home-section {
+  width: 100%;
+  flex-flow: row;
+}
+
 /* Hero Section */
 .custom-radial-bg {
   background: radial-gradient(
@@ -283,6 +288,7 @@ a {
 }
 
 .footer {
+  width: 100%;
   background-color: $darkash;
   border-top: 2px solid $fineash;
 }
